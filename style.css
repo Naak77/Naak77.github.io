@@ -95,7 +95,7 @@ body {
 .row {
     display: flex;
     padding: 10px;
-    border-bottom: 1px dotted #626675;
+    border-bottom: none;
     width: 300px;
 }
 .left {
@@ -112,7 +112,7 @@ body {
     margin: 40px 20px 40px 0;
 }
 .des .overall-image {
-    width: 300px;
+    width: 280px;
     height: 400px;
 }
 /* 基础信息 */
@@ -208,6 +208,5 @@ body {
 }
 .actor-text p {
     display: block;
-    font-size: 14px;
-    width: 600px;
+    font-size: 15px;
 }
