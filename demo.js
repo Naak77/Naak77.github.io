@@ -9,7 +9,7 @@ let robotConsecutiveWins = 0;
 
 function updateRoundText() {
     const roundText = document.querySelector(".round");
-    roundText.textContent = `回合 ${round}（${round} / 3）`;
+    roundText.textContent = `回合 ${round-1}（${round-1} / 3）`;
 }
 
 // 处理游戏逻辑的函数，接受玩家选择的手势作为参数
